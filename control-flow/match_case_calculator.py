@@ -4,13 +4,13 @@ operator = input("Choose the operation (+, -, *, /): ")
 
 if operator == "+":
     result = num_1 + num_2
-    print(f"The result is {result}")
+    print(f"The result is {result}.")
 elif operator == "-":
     result = num_1 - num_2
-    print(f"The result is {result}")
+    print(f"The result is {result}.")
 elif operator == "*":
     result = num_1 * num_2
-    print(f"The result is {result}")
+    print(f"The result is {result}.")
 elif operator == "/":
     try:
         result = num_1 / num_2
