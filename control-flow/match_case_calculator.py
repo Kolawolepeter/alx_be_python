@@ -1,10 +1,6 @@
-# Input from the user
-num_1 = int(input("Enter the first number: "))
-num_2 = int(input("Enter the second number: "))
-operator = input("Choose the operation (+, -, *, /): ")
+operation = input("Choose the operation (+, -, *, /): ")
 
-# Match statement to handle different operations
-match operator:
+match operation:
     case "+":
         result = num_1 + num_2
         print(f"The result is {result}.")
